@@ -1,0 +1,42 @@
+{
+  "title": "Select a Template",
+  "contact": {
+    "title": "Liên hệ",
+    "infor": "Có một ý tưởng để thêm vào phần mềm của chúng tôi? Một câu hỏi bạn cần trả lời? Xin vui lòng để lại ý kiến của bạn",
+    "entername":"Nhập Tên",
+    "enteremail":"Nhập Địa Chỉ Email",
+    "cell":"Di động",
+    "email":"Email",
+    "subject":"Vấn đề"
+  },
+  "invalidEmail":"Email không hợp lệ!",
+  "vacance":{
+    "title": "Vacancies",
+    "infor": "Nói điều gì đó về khách hàng mà bạn làm việc! Bấm vào để chỉnh sửa. Thêm biểu tượng và mô tả công ty trong thư viện dưới đây. Các công ty bạn làm việc có thể nói rất nhiều về bạn. Cho phép khách truy cập biết bạn đã làm gì cho khách hàng của mình."
+  },
+  "button":{
+    "send":"Gởi Email"
+  },
+  "title": "Select a Template",
+  "home": {
+    "title": "Trang chủ",
+    "infor": "Ngôi nhà của công nghệ và sự tin cậy"
+  },
+  "title": "Select a Template",
+  "services": {
+    "title":"Dịch vụ",
+    "infor": "Chúng tôi cung cấp một hệ thống quản lý kho để được sử dụng với máy quét của chúng tôi. Nó có thể được tích hợp với các hệ thống ERP như SAP và MicroSoft Dynamics. Nhóm tư vấn của chúng tôi ở Hà Lan có thể tinh chỉnh yêu cầu kinh doanh của bạn và bổ sung nó vào phần mềm, do đó bạn có thể chạy nó bằng quy trình kho của riêng bạn. Bằng cách này, chúng tôi tìm hiểu thêm về nhu cầu của bạn, để đưa ra giải pháp tối ưu nhất. Hoặc bạn thực hiện các quy trình lean, best practice của khách hàng. Bây giờ bạn chắc chắn sẽ chạy quy trình hiệu quả nhất với chi phí thấp nhất cho kho của bạn.",
+    "infor1":"Nếu bạn muốn phát triển ra nước ngoài, bạn đã đến đúng nơi. Chúng tôi sử dụng một phương pháp scrum để theo dõi sản xuất và cung cấp một sản phẩm. Với thế giới thay đổi nhanh hơn mỗi ngày, chúng ta cần một quá trình phát triển linh hoạt để theo kịp. Do đó chúng tôi sử dụng cách tiếp cận Agile, bằng cách này chúng tôi cung cấp phần mềm nhỏ, kiểm tra những gì hoạt động và điều chỉnh bất cứ nơi nào cần trước khi nó trở nên quá tốn kém. Phương pháp để xây dựng phần mềm của chúng tôi là phương pháp Scrum. Bằng cách này chúng tôi chắc chắn sẽ có một chu trình ngắn, về thời gian giao hàng với phần mềm chất lượng. Ngoài ra quá trình và cách làm việc là hoàn toàn minh bạch để bạn biết những gì bạn phải trả cho và phần mềm được vận chuyển theo thời gian dự kiến."
+  },
+  "title": "Select a Template",
+  "about": {
+    "title":"",
+    "infor": "Haphansoft là bộ phận CNTT của Haphan. Tại Haphansoft chúng tôi xây dựng phần mềm được sử dụng với các sản phẩm mà Haphan cung cấp. Bởi vì chúng tôi làm việc chặt chẽ với Haphan, bạn có thể mong đợi phần mềm tích hợp dường như với các sản phẩm của bạn. Bên cạnh việc tạo ra phần mềm, chúng tôi cung cấp dịch vụ tư vấn để giúp bạn phát triển và đạt được lợi thế cạnh tranh, sử dụng các xu hướng mới nhất trong CNTT."
+  },
+  "vacance":{
+    "title":"Tuyển dụng"
+  }
+}
+
+
+

@@ -1,0 +1,41 @@
+{
+  "title": "Select a Template",
+  "contact": {
+    "title": "Contact",
+    "infor": "Have an idea to add to our software? A question you need answered? Please leave your comments:",
+    "entername":"Enter Name",
+    "enteremail":"Enter Email Address",
+    "cell":"Cell",
+    "email":"Email",
+    "subject":"Subject"
+  },
+  "invalidEmail":"Email invalid!",
+  "vacance":{
+    "title": "Vacancies",
+    "infor": "say something about the clients you work with! Click to edit. Add company logos and descriptions in the gallery below. The companies you work with can say a lot about you. So let your visitors know what you did for your clients."
+  },
+
+  "button":{
+    "send":"Send Email"
+  },
+  "title": "Select a Template",
+  "home": {
+    "title": "Home",
+    "infor": "Home of technology and reliability"
+  },
+  "title": "Select a Template",
+  "services": {
+    "title":"Our services",
+    "infor": "We offer a warehouse management system to be used with our scanners. It can be integrated with ERP systems like SAP and MicroSoft Dynamics. Our consultant team in the Netherlands can refine your business requirements and add it into the software, so you can run it with your own warehouse processes. This way we learn more about your needs, to suggest the most optimal solution. Or you implement the lean, best practice processes of our customers. Now you are sure to run the most efficient process at the lowest costs for your warehouse.",
+    "infor1":"If you wish to do offshore development you have come to the right place. We use a scrum method to keep track on production and deliver a lean product. With the world changing faster every day, we need a flexible development process to keep up. Hence we use the Agile approach, this way we deliver small pieces of software, test what works and adjust wherever needed before it gets too costly. The method to build our software is the Scrum method. This way we are ensured to have a short cycle, on time delivery with quality software. Also the process and way of working is completely transparant so you know what you pay for and the software is shipped at the planned time."
+  },
+  "title": "Select a Template",
+  "about": {
+    "title":"",
+    "infor": "Haphansoft is the IT department of Haphan. At Haphansoft we build software that is used with the products that Haphan supplies. Because we work closely with Haphan, you can expect seemless integrated software with your products. Beside creating software, we provide consultancy to help you grow and gain a competitive advantage, using the newest trends in IT."
+  },
+  "vacance":{
+    "title":"Vacancies"
+  }
+}
+

@@ -1,0 +1,82 @@
+<div class="jumbotron2">
+	<img class="imagesb" src="public/images/anh-nen-dep-cho-may-tinh.jpg">
+
+	<h1 class="title" style="margin-top: -1.8em;color: #fff;text-align: left;">{{'contact.title' | translate}}</h1>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12 col-md-12">
+			<div class="row">
+				<!--<div class="hl1" style="margin-top: 20px;"></div>-->
+				<div class="row">
+
+					<div class="col-xs-1 col-md-2" ></div>
+					<div class="col-xs-10 col-md-8" >
+						<p class="space2x"></p>
+						<div class="txtNewJustify firstUpper">{{ 'contact.infor' | translate}}</div>
+
+						<p class="space4x"></p>
+						<form name="myForm" class="form-horizontal" ng-submit="formSubmit()" >
+							<div class="row">
+								<div class="col-xs-12 col-md-6 nopadding" >
+									<div class="input-group margin-bottom-sm">
+										<span class="input-group-addon">
+											<i class="fa fa-user fa-fw"></i>
+										</span>
+										<input ng-model="contact.myName" ng-required="true" class="form-control" type="text" placeholder="{{'contact.entername' | translate}}" />
+									</div>
+									<div class="input-group margin-bottom-sm">
+										<span class="input-group-addon">
+											<i class="fa fa-at fa-fw" ></i>
+										</span>
+										<input name="myEmail" ng-model="contact.myEmail" ng-required="true" class="form-control" type="email" placeholder="{{'contact.enteremail' | translate}}" />
+									</div>
+									<div><input class="form-control" type="text" placeholder="{{'contact.subject' | translate}}" /></div>
+								</div>
+								<div class="col-xs-12 col-md-6 nopadding">
+									<textarea ng-required="true" ng-value="contact.myDesc" ng-model="contact.myDesc" class="form-control" rows="4" cols="" style="height:104px" name="noresize"  ></textarea>
+								</div>
+							</div>
+							<p class="space1x"></p>
+							<div class="row">
+								<span class="error" ng-show="myForm.myEmail.$error.email">{{'invalidEmail' | translate}}</span>
+								<button ng-disabled="myForm.$invalid" type="submit" class="btn btn-default pull-right">{{'button.send'|translate}}</button>
+							</div>
+						</form>
+
+						<div class="row">
+							<span class="fa-stack fa">
+								<a href="#contact">
+									<i class="fa fa-circle fa-stack-2x"></i>
+									<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+								</a>
+							</span>
+							<span class="fa-stack fa">
+								<a href="#contact">
+									<i class="fa fa-circle fa-stack-2x"></i>
+									<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+								</a>
+							</span>
+							<span class="fa-stack fa">
+								<a href="#contact">
+									<i class="fa fa-circle fa-stack-2x"></i>
+									<i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+								</a>
+							</span>
+						</div>
+
+						<p class="space1x"></p>
+						<div class="row">
+
+							<div class="labelc"><b>{{'contact.cell'| translate}}</b> </div>
+							<div class="labelc"><b>{{'contact.email'| translate}}</b></div>
+						</div>
+
+					</div>
+					<div class="col-xs-1 col-md-2" ></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<p class="space4x"></p>
+</div>

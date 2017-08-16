@@ -1,0 +1,347 @@
+/* menu bar*/
+
+.navbar-inverse {
+    background-color: rgba(229, 229, 229, 1);
+    border-color: transparent;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: rgba(51,149,143,1);
+    background-color: transparent;
+
+}
+a:hover > span.transition, a:focus > span.transition,
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    /*color: rgba(51,149,143,1);
+    background-color: rgba(229, 229, 229, 1);*/
+    color: rgba(51,149,143,1);
+    -webkit-transition: color 1s; /* Safari */
+    transition: color 1s ease 0s;
+}
+
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: rgba(51,149,143,1);
+    background-color:transparent;
+}
+/*
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #080808;
+}
+*/
+
+/* navigate bar */
+.navbar-inverse .navbar-toggle {
+    background-color: transparent;
+    color:rgba(51,149,143,1);
+}
+.navbar-inverse .navbar-toggle {
+    border-color: rgba(51,149,143,1);
+    background-color: transparent;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    color: rgba(51,149,143,1);
+    background-color: transparent;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: rgba(51,149,143,1);
+}
+.navbar-inverse .navbar-toggle .icon-bar:hover {
+    background-color: rgba(51,149,143,1);
+}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+    border-color: rgba(51,149,143,1);
+}
+/*.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: rgba(51,149,143,1);
+}
+*/
+/***************for dropdown-menu items *************/
+.dropdown-menu{
+    font-size: 1em;
+}
+.dropdown-menu > li > a,
+.navbar-inverse .navbar-nav > li > a {
+    color: #9d9d9d;
+}
+.dropdown-menu > li > a.active,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    /*background-color: rgba(229, 229, 229, 1); !important;*/
+    color: rgba(51,149,143,1) !important;
+}
+/* mouse over on menu item and auto show list dropdown menu*/
+/*@media (min-width: 979px) {
+    ul.nav li:hover ul.dropdown-menu {
+        display: block;
+    }
+}*/
+.dropdown:hover .dropdown-menu {
+    margin-top: 0;
+}
+/********** for tooltip***********************************************/
+
+.nav-fixed-right {
+    z-index: 22;
+    width: 30px;
+    line-height: 2em;
+    position: fixed;
+    right: 1%;
+    bottom: 15%;
+    text-align: center;
+
+}
+
+
+.nav-fixed-right .nav-fixed-right-item {
+    clear: both;
+    line-height: 2em;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    transition: .6s;
+    border-radius: 50px;
+    color: #fff;
+    background: #c2c2c2;
+}
+.nav-fixed-right .nav-fixed-right-item:focus,
+.nav-fixed-right .nav-fixed-right-item:hover {
+    background-color: rgba(51,149,143,1);
+}
+
+.nav-fixed-right {
+    z-index: 1;
+}
+[data-toggle*="tooltip"] {
+    cursor: pointer;
+}
+.tooltip-inner{background-color:rgba(51,149,143,1);}
+.tooltip.bottom .tooltip-arrow{border-bottom-color:rgba(51,149,143,1)!important}
+.tooltip.right .tooltip-arrow{border-right-color:rgba(51,149,143,1)!important}
+.tooltip.top .tooltip-arrow{border-top-color:rgba(51,149,143,1)!important}
+.tooltip.left .tooltip-arrow{border-left-color:rgba(51,149,143,1)!important}
+
+
+
+
+
+li.active {
+    margin-left: 3  em;
+}
+.menu
+{
+
+    text-align: center;
+    margin-left: 5em;
+    margin-top: 10px;
+}
+ 
+/* general styles */
+.menu, .menu ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+.menu li {
+    min-width: 130px;
+    border-bottom: 2px solid rgba(229, 229, 229, 1);
+}
+.menu > li {
+    display: block;
+    float: left;
+    position: relative;
+}
+.menu > li:first-child {
+    border-radius: 5px 0 0;
+}
+.menu a {
+    border-left: 25px solid rgba(0, 0, 0, 0);
+    display: block;
+    font-family: 'Lucida Console';
+    font-size: 18px;
+    line-height: 2;
+    /*padding: 0 25px;*/
+    text-decoration: none;
+    text-transform: uppercase;
+}
+ 
+/* submenu styles */
+.submenu {
+    left: 0;
+    max-height: 0;
+    position: absolute;
+    top: 100%;
+    z-index: 0;
+    background: #fff;
+    text-align: left;
+ 
+    -webkit-perspective: 400px;
+    -moz-perspective: 400px;
+    -ms-perspective: 400px;
+    -o-perspective: 400px;
+    perspective: 400px;
+}
+.submenu li {
+    opacity: 0;
+ 
+    -webkit-transform: rotateY(90deg);
+    -moz-transform: rotateY(90deg);
+    -ms-transform: rotateY(90deg);
+    -o-transform: rotateY(90deg);
+    transform: rotateY(90deg);
+ 
+    -webkit-transition: opacity .4s, -webkit-transform .5s;
+    -moz-transition: opacity .4s, -moz-transform .5s;
+    -ms-transition: opacity .4s, -ms-transform .5s;
+    -o-transition: opacity .4s, -o-transform .5s;
+    transition: opacity .4s, transform .5s;
+}
+.menu .submenu li:hover a {
+    border-left: 3px solid #454545;
+    border-radius: 0;
+    color: #000;
+}
+.menu > li:hover .submenu, .menu > li:focus .submenu {
+    max-height: 2000px;
+    z-index: 10;
+}
+.menu > li:hover .submenu li, .menu > li:focus .submenu li {
+    opacity: 1;
+ 
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+}
+ 
+/* CSS3 delays for transition effects */
+.menu li:hover .submenu li:nth-child(1) {
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -ms-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+}
+.menu li:hover .submenu li:nth-child(2) {
+    -webkit-transition-delay: 50ms;
+    -moz-transition-delay: 50ms;
+    -ms-transition-delay: 50ms;
+    -o-transition-delay: 50ms;
+    transition-delay: 50ms;
+}
+.menu li:hover .submenu li:nth-child(3) {
+    -webkit-transition-delay: 100ms;
+    -moz-transition-delay: 100ms;
+    -ms-transition-delay: 100ms;
+    -o-transition-delay: 100ms;
+    transition-delay: 100ms;
+}
+.menu li:hover .submenu li:nth-child(4) {
+    -webkit-transition-delay: 150ms;
+    -moz-transition-delay: 150ms;
+    -ms-transition-delay: 150ms;
+    -o-transition-delay: 150ms;
+    transition-delay: 150ms;
+}
+.menu li:hover .submenu li:nth-child(5) {
+    -webkit-transition-delay: 200ms;
+    -moz-transition-delay: 200ms;
+    -ms-transition-delay: 200ms;
+    -o-transition-delay: 200ms;
+    transition-delay: 200ms;
+}
+.menu li:hover .submenu li:nth-child(6) {
+    -webkit-transition-delay: 250ms;
+    -moz-transition-delay: 250ms;
+    -ms-transition-delay: 250ms;
+    -o-transition-delay: 250ms;
+    transition-delay: 250ms;
+}
+.menu li:hover .submenu li:nth-child(7) {
+    -webkit-transition-delay: 300ms;
+    -moz-transition-delay: 300ms;
+    -ms-transition-delay: 300ms;
+    -o-transition-delay: 300ms;
+    transition-delay: 300ms;
+}
+.menu li:hover .submenu li:nth-child(8) {
+    -webkit-transition-delay: 350ms;
+    -moz-transition-delay: 350ms;
+    -ms-transition-delay: 350ms;
+    -o-transition-delay: 350ms;
+    transition-delay: 350ms;
+}
+ 
+.submenu li:nth-child(1) {
+    -webkit-transition-delay: 350ms;
+    -moz-transition-delay: 350ms;
+    -ms-transition-delay: 350ms;
+    -o-transition-delay: 350ms;
+    transition-delay: 350ms;
+}
+.submenu li:nth-child(2) {
+    -webkit-transition-delay: 300ms;
+    -moz-transition-delay: 300ms;
+    -ms-transition-delay: 300ms;
+    -o-transition-delay: 300ms;
+    transition-delay: 300ms;
+}
+.submenu li:nth-child(3) {
+    -webkit-transition-delay: 250ms;
+    -moz-transition-delay: 250ms;
+    -ms-transition-delay: 250ms;
+    -o-transition-delay: 250ms;
+    transition-delay: 250ms;
+}
+.submenu li:nth-child(4) {
+    -webkit-transition-delay: 200ms;
+    -moz-transition-delay: 200ms;
+    -ms-transition-delay: 200ms;
+    -o-transition-delay: 200ms;
+    transition-delay: 200ms;
+}
+.submenu li:nth-child(5) {
+    -webkit-transition-delay: 150ms;
+    -moz-transition-delay: 150ms;
+    -ms-transition-delay: 150ms;
+    -o-transition-delay: 150ms;
+    transition-delay: 150ms;
+}
+.submenu li:nth-child(6) {
+    -webkit-transition-delay: 100ms;
+    -moz-transition-delay: 100ms;
+    -ms-transition-delay: 100ms;
+    -o-transition-delay: 100ms;
+    transition-delay: 100ms;
+}
+.submenu li:nth-child(7) {
+    -webkit-transition-delay: 50ms;
+    -moz-transition-delay: 50ms;
+    -ms-transition-delay: 50ms;
+    -o-transition-delay: 50ms;
+    transition-delay: 50ms;
+}
+.submenu li:nth-child(8) {
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -ms-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+}
+.navbar-nav:hover{
+      background: #fff;
+    color: #000;
+}
+label.navbar-nav:hover { transform: rotate(-15deg) scale(1.3); }
+

@@ -1,0 +1,38 @@
+<div class="nav-fixed-right device-mb-none" style="display: none" >
+    <a class="nav-fixed-right-item" data-container="body"
+       data-toggle="tooltip" data-placement="left"
+       data-original-title="Back to top" id="back_to_top">
+        <i class="fa fa-arrow-up"></i>
+    </a>
+</div>
+<script type="application/javascript">
+
+    $(document).ready(function() {
+
+        $('[data-toggle="tooltip"]').tooltip();
+        //$(".nav-fixed-right-item").fadeOut(900);
+
+        $(window).scroll(function(t) {
+
+            $("div.nav-fixed-right").show();
+
+            //if ($(this).scrollTop() > 1e3) {
+            if ($(this).scrollTop() > 100) {
+
+                $(".nav-fixed-right-item").fadeIn(900);
+            }
+            else{
+
+                $(".nav-fixed-right-item").fadeOut(900);
+            }
+        });
+
+        $("#back_to_top").on("click", function() {
+
+            $("div.nav-fixed-right").hide();
+
+            $(window).scrollTop(0);
+
+        })
+    });
+</script>
